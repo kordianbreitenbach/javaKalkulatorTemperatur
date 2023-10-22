@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SampleController">
+   <center>
+      <BorderPane prefHeight="490.0" prefWidth="409.0" BorderPane.alignment="CENTER">
+         <center>
+            <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+               <children>
+                  <ChoiceBox fx:id="firstChoiceBox" prefHeight="34.0" prefWidth="410.0" />
+                  <TextField fx:id="textFieldOne" />
+                  <ChoiceBox fx:id="secondChoiceBox" prefHeight="40.0" prefWidth="410.0" />
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0">
+                     <children>
+                        <Text fx:id="equality" layoutX="101.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="=" textAlignment="CENTER" wrappingWidth="37.13671875" />
+                        <Text fx:id="firstPart" layoutY="26.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="82.13671875" />
+                        <Text fx:id="rownasie" layoutX="131.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="74.0" />
+                        <Text fx:id="typjednostki" layoutX="80.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="RIGHT" wrappingWidth="29.0" />
+                        <Text fx:id="typjednostki2" layoutX="187.0" layoutY="26.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="RIGHT" wrappingWidth="70.0" />
+                     </children>
+                  </AnchorPane>
+               </children>
+            </VBox>
+         </center>
+      </BorderPane>
+   </center>
+</BorderPane>
